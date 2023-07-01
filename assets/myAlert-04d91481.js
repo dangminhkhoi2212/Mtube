@@ -1,0 +1,1 @@
+import{S as r}from"./index-db56849a.js";class l{myAlert(t,o){r.fire({position:"top",icon:t,title:o,showConfirmButton:!1,timer:1500})}myConfirm(t,o,e,n){return r.fire({title:t,text:e,icon:o,showCancelButton:!0,confirmButtonColor:"#3085d6",cancelButtonColor:"#d33",confirmButtonText:n}).then(i=>i.isConfirmed)}}const a=new l;export{a};
